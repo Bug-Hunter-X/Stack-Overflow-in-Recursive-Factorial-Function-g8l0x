@@ -1,0 +1,1 @@
+This repository demonstrates a common error in recursive functions: stack overflow. The `foo` function calculates the factorial of a number recursively.  For small inputs, it works fine. However, for large inputs, the recursive calls consume too much stack space, leading to a stack overflow error. The solution demonstrates how to handle this using iteration.
